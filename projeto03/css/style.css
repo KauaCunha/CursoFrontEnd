@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+html,body{
+    height: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    padding: 40px 2%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagens/capa.png);
+    font-weight: 300;
+}
+header nav{
+    float: right;
+}
+header .logo{
+    float: left;
+    width: 160px;
+    height: 40px;
+    background-color: #ccc;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav li{
+    float: left; 
+    padding: 0px 20px;
+}
+header nav ul a{
+    text-decoration: none;
+    color: white;
+}
+.chamada1{
+    max-width: 600px;
+    float: right;
+    margin:140px 150px;
+}
+.chamada1 h2{
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+}
+.chamada1 p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+section.sessao1{
+    width: 100%;
+    background-color: #472562;
+    padding: 0 2%;
+    height: 400px;
+}
+section.texto-sessao1 .container{
+    max-width: 1000px;
+}
+.texto-sessao1{
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 45px;
+    margin-top: 60px;
+    padding-left: 130px;
+    color: white;
+}
+.texto-sessao1 h2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+.texto-sessao1 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.texto-sessao1 ul{
+    font-size: 15px;
+    list-style-position: inside;
+}
+.texto-sessao1 ul li{
+    float: left;
+    width: 100%;
+    margin-top:15px;
+}
+.btn1-texto{
+    background-color: #ff773d;
+    width: 165px;
+    height: 44px;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
+}
+.btn1-texto:hover{
+    width: 170px;
+    height: 51px;
+    text-align: center;
+    line-height: 51px;
+    color: white;
+}
+.device-sessao1{
+    float: left;
+    width: 50%;
+    height: 450px;
+    position: relative;
+    top: -50px;
+    background-image: url(../imagens/device.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
